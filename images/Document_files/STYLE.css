@@ -1,0 +1,33 @@
+.data ul li{
+    text-align:right;
+    color:rgb(18, 21, 204);
+    font-size: xx-large;
+    margin-top: 2%;
+     font-style: none;
+}
+body{
+   
+    background-image: url(pexels-jeandaniel-francoeur-4006151.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+h1{
+    float:Right;
+}
+table{
+    width: 400px;
+    position:relative;
+
+}
+th{
+    text-align: right;
+}
+table,th,td{
+    border: 1px silver;
+    border-collapse: collapse;
+
+}
+th,td{
+    padding: 10px;
+}

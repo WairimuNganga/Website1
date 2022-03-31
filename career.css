@@ -1,0 +1,146 @@
+table{
+    width: 60%;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left:15%;
+    margin-right: 50px;
+}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    
+}
+th{
+   text-align: left;
+}
+table,th,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+
+
+}
+th,td{
+    padding: 10px;
+
+}
+tr:nth-child(odd){
+    background-color:gray;
+}
+tr:nth-child(even){
+    background-color: #fff;
+}
+.data ul li{
+    text-align:center;
+    color:rgb(18, 21, 204);
+    font-size: xx-large;
+    margin-top: 2%;
+     font-style: none;
+}
+body{
+   
+    background-image: url(apple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+h1{
+    float:Right;
+}
+/*nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 2px;
+    background-color:rgb(158, 228, 185);
+    text-decoration: none;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li a{
+    color: rgb(226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.nav-links li{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:limegreen;
+  }
+  .nav-links li{
+    list-style: none;
+    }
+    */
+
+
+    
+    
+
+.footer{position: fixed;
+   left: 50px;
+   bottom: 0;
+   width: 100%;
+   background-color:aquamarine;
+   color:black;
+    text-align: left;
+    font-style: italic;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: aquamarine;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+
+}
+.nav-links li a{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-links li{
+    list-style: none;
+    }
+  
+  li a:hover {
+    background-color:lightgreen;
+  }
+  .video{
+    width: 100%;
+    height: auto;
+    margin: 50px 50px;
+  }
+  h1{
+      margin-left: 35%;
+      margin-top:-2px;
+  }
+  body{
+      background-image: url(apple.jpg);
+  }
+  
+    
+
